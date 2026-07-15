@@ -4,14 +4,13 @@ import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-  apiKey: process.env.EXPO_PUBLIC_FIREBASE_API_KEY || "demo-key",
-  authDomain: process.env.EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN || "demo.firebaseapp.com",
-  projectId: process.env.EXPO_PUBLIC_FIREBASE_PROJECT_ID || "demo-project",
-  storageBucket: process.env.EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET || "demo.appspot.com",
-  messagingSenderId: process.env.EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID || "123456789",
-  appId: process.env.EXPO_PUBLIC_FIREBASE_APP_ID || "demo-app-id",
+  apiKey: "AIzaSyC7c8YHZv6cbQBJVyiBocXdF7NPT7OKbMA",
+  authDomain: "womens-safety-app-dda3f.firebaseapp.com",
+  projectId: "womens-safety-app-dda3f",
+  storageBucket: "womens-safety-app-dda3f.firebasestorage.app",
+  messagingSenderId: "841748649686",
+  appId: "1:841748649686:android:fc2571fadb84890cee5b77",
 };
-
 let app, auth, db, storage;
 
 try {
